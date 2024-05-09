@@ -22,7 +22,7 @@ class DetectorFacial:
                 break
 
             #Exibir o frame capturado em uma janela separada
-            cv2.imshow('Video da Camera', frame)
+            cv2.imshow('Jogo da Serpente', frame)
 
             #Aguardar 1 milissegundo e verifica se q foi pressionada
             if cv2.waitKey(1) & 0xFF == ord('q'):
